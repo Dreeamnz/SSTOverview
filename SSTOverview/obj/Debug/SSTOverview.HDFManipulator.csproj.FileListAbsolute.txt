@@ -1,0 +1,15 @@
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\SSTOverview.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\SSTOverview.pdb
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\HDF5DotNet.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\SSTOverview.Model.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\SSTOverview.Model.pdb
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\obj\Debug\SSTOverview.HDFManipulator.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\obj\Debug\SSTOverview.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\obj\Debug\SSTOverview.pdb
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\NPOI.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\NPOI.OOXML.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\bin\Debug\NPOI.xml
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview\obj\Debug\SSTOverview.HDFManipulator.csproj.ResolveComReference.cache
