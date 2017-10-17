@@ -1,0 +1,5 @@
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Util\bin\Debug\SSTOverview.Util.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Util\bin\Debug\SSTOverview.Util.pdb
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Util\obj\Debug\SSTOverview.Util.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Util\obj\Debug\SSTOverview.Util.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Util\obj\Debug\SSTOverview.Util.pdb

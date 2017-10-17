@@ -31,9 +31,10 @@ namespace SSTOverview
 
         public void SaveExcelFile()
         {
-            FileStream sw = File.Create(_directory);
-            this.Write(sw);
-            sw.Close();
+            using (var stream = new FileStream(_directory, FileMode.Create, FileAccess.Write))
+            {
+                this.Write(stream);
+            }
         }
     }
 }

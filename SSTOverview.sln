@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSTOverview.Model", "SSTOve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSTOverview.ConsoleApp", "SSTOverview.Console\SSTOverview.ConsoleApp.csproj", "{95C5C659-4532-46B8-863B-130974EE8AF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSTOverview.Util", "SSTOverview.Util\SSTOverview.Util.csproj", "{6B183C2C-31DE-4489-9988-95515C5841BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{95C5C659-4532-46B8-863B-130974EE8AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C5C659-4532-46B8-863B-130974EE8AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C5C659-4532-46B8-863B-130974EE8AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B183C2C-31DE-4489-9988-95515C5841BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B183C2C-31DE-4489-9988-95515C5841BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B183C2C-31DE-4489-9988-95515C5841BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B183C2C-31DE-4489-9988-95515C5841BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

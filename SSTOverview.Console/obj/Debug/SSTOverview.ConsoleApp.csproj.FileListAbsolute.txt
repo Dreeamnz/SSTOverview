@@ -15,3 +15,5 @@ C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\NPOI.OO
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\NPOI.OpenXml4Net.dll
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\NPOI.OpenXmlFormats.dll
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\NPOI.xml
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\SSTOverview.Util.dll
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Console\bin\Debug\SSTOverview.Util.pdb
