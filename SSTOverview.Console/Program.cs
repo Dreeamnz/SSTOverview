@@ -18,7 +18,7 @@ namespace SSTOverview.ConsoleApp
             Thread.CurrentThread.CurrentCulture = culture;
             Thread.CurrentThread.CurrentUICulture = culture;
 
-            int oscilator = 4;
+            int oscilator = 8;
             Reader reader = new Reader(ConfigurationManager.AppSettings["HDF_DIRECTORY"], ConfigurationManager.AppSettings["HDF_GROUP"], ConfigurationManager.AppSettings["HDF_DATASET"]);
             List<HDFContent> hdfList = reader.ReadHDF5();
             Coordinates coordinates = null;
@@ -37,21 +37,21 @@ namespace SSTOverview.ConsoleApp
             {
                 fileNumber++;
 
-                ExcelWriter excelWriter = new ExcelWriter("C:\\Desenvolvimento\\Excel", hdf.FileName, "XLS");
-                excelWriter.CreateSheet("SST");
+                ExcelWriter excelWriter = new ExcelWriter(ConfigurationManager.AppSettings["EXCEL_DIRECTORY"], hdf.FileName, ConfigurationManager.AppSettings["FILE_EXTENSION"]);
+                excelWriter.CreateSheet(ConfigurationManager.AppSettings["HDF_DATASET"]);
 
                 BaseProgress(fileNumber, maxFiles, hdf.FileName);
 
                 int excelRow = 0,
                     excelColumn;
-                for (int row = GeographicFunctions.LatitudeToTableRow(coordinates.NorthEastLatitude, oscilator); 
-                            row < GeographicFunctions.LatitudeToTableRow(coordinates.SouthWestLatitude, oscilator); row++)
+                for (int row = GeographicFunctions.LatitudeToTableRow(coordinates.SouthWestLatitude, oscilator); 
+                            row < GeographicFunctions.LatitudeToTableRow(coordinates.NorthEastLatitude, oscilator); row++)
                 {
                     excelColumn = 0;
-                    for (int column = GeographicFunctions.LongitudeToTableColumn(coordinates.NorthEastLongitude, oscilator); 
-                             column < GeographicFunctions.LongitudeToTableColumn(coordinates.SouthWestLongitude, oscilator); column++)
+                    for (int column = GeographicFunctions.LongitudeToTableColumn(coordinates.SouthWestLongitude, oscilator); 
+                             column < GeographicFunctions.LongitudeToTableColumn(coordinates.NorthEastLongitude, oscilator); column++)
                     {
-                        excelWriter.CreateCellValue("SST", excelRow, excelColumn, hdf.Data[row, column].ToString());
+                        excelWriter.CreateCellValue(ConfigurationManager.AppSettings["HDF_DATASET"], excelRow, excelColumn, hdf.Data[row, column].ToString());
                         UpdateProgress(PercentProcessConvertCalc((row + 1), (column + 1), hdf.Lines, hdf.Columns));
                         excelColumn++;
                     }
@@ -100,17 +100,17 @@ namespace SSTOverview.ConsoleApp
             {
                 Coordinates coordinates = new Coordinates();
 
-                Console.WriteLine("Inform NE latitude: ");
-                coordinates.NorthEastLatitude = TryConvert();
-                
-                Console.WriteLine("Inform NE longitude: ");
-                coordinates.NorthEastLongitude = TryConvert();
-
                 Console.WriteLine("Inform SW latitude: ");
                 coordinates.SouthWestLatitude = TryConvert();
 
                 Console.WriteLine("Inform SW longitude: ");
                 coordinates.SouthWestLongitude = TryConvert();
+
+                Console.WriteLine("Inform NE latitude: ");
+                coordinates.NorthEastLatitude = TryConvert();
+
+                Console.WriteLine("Inform NE longitude: ");
+                coordinates.NorthEastLongitude = TryConvert();
 
                 return coordinates;
             }

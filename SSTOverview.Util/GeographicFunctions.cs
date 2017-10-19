@@ -10,8 +10,7 @@
         /// <param name="oscilator">decree oscilator of each row. Ex: oscilator = 1, tableRow[0] = -90, tableRow[1] = -89</param>
         public static int LatitudeToTableRow(float latitude, float oscilator)
         {
-            int tableRow = (int)((latitude * oscilator) + (90 * oscilator));
-            return tableRow == (90 * oscilator) ? (tableRow - 1) : tableRow;
+            return (int)((latitude * oscilator) + (90 * oscilator));
         }
 
         /// <summary>
@@ -22,8 +21,7 @@
         /// <param name="oscilator">decree oscilator of each row. Ex: oscilator = 1, tableRow[0] = -180, tableRow[1] = -179</param>
         public static int LongitudeToTableColumn(float longitude, float oscilator)
         {
-            int tableRow = (int)((longitude * oscilator) + (180 * oscilator));
-            return tableRow == (180 * oscilator) ? (tableRow - 1) : tableRow;
+            return (int)((longitude * oscilator) + (180 * oscilator));
         }
     }
 }

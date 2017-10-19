@@ -1,5 +1,5 @@
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\bin\Debug\SSTOverview.Model.dll
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\bin\Debug\SSTOverview.Model.pdb
+C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\obj\Debug\SSTOverview.Model.csprojResolveAssemblyReference.cache
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\obj\Debug\SSTOverview.Model.dll
 C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\obj\Debug\SSTOverview.Model.pdb
-C:\Desenvolvimento\SSTOverview\SSTOverview\SSTOverview.Model\obj\Debug\SSTOverview.Model.csprojResolveAssemblyReference.cache
